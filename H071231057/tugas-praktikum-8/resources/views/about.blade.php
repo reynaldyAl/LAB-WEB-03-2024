@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <!-- <script src="{{ asset('js/styling.js') }}"></script> -->
+  {{-- <!-- <script src="{{ asset('js/styling.js') }}"></script> --> --}}
 
   <div class="skills-section mt-5">
     <h3 class="text-center">Skills</h3>

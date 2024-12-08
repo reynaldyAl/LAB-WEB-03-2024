@@ -171,3 +171,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }, index * 200); // Delay each animation by 200ms
   });
 });
+
+document.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+  } else {
+      navbar.classList.remove('scrolled');
+  }
+});
